@@ -1,0 +1,3067 @@
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'S-CoreDream-4Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'S-CoreDream-5Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'S-CoreDream-6Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'S-CoreDream-8Heavy';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SpoqaHanSansNeo-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SpoqaHanSansNeo-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SpoqaHanSansNeo-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.main_content {
+    overflow-x: hidden;
+}
+
+.noonaiPageImg {
+    width: 100%;
+    height: auto;
+    /* min-height: 646px;
+    background: url(../../imgs/main/noonai_1.png);
+    background-size: cover;
+    background-position: 100% 40%; */
+    position: relative;
+}
+
+.noonaiPageImg .logoImg {
+    width: 100%;
+    height: auto;
+}
+
+.noonaiPageImg .etcImg {
+    width: 41.67%;
+    position: absolute;
+    top: 33.13%;
+    left: 7.29%;
+}
+
+.noonai_main_content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.backDiv {
+    background: linear-gradient(-172deg, #f9f9fa 77%, #fff 23%);
+}
+
+.kisaDiv {
+    width: 82.81%;
+    height: 877px;
+    margin: 123px 188px 0 auto;
+    position: relative;
+}
+
+.kisaDiv .textArea {
+    margin: 0 0;
+}
+
+.kisaDiv .textArea h1 {
+    font-family: S-CoreDream-8Heavy;
+    font-size: 58px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.27;
+    letter-spacing: normal;
+    text-align: left;
+    color: #16284d;
+    margin: 0 0 20px;
+}
+
+
+.kisaDiv .textArea h2 {
+    display: none;
+}
+
+.kisaDiv .textArea p {
+    font-family: SpoqaHanSansNeo-Regular;
+    font-size: 24px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.58;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+    margin: 0 0;
+}
+
+.kisaDiv .textArea p1 {
+    display: none;
+}
+
+.Certificate {
+    width: 480px;
+    height: 680px;
+    position: absolute;
+    top: 17px;
+    right: 0px;
+}
+
+.Certificate img {
+    width: 100%;
+    height: 100%;
+    filter: drop-shadow(10px 10px 20px #9c9c9c);
+}
+
+.kisaLogo {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    bottom: 54px;
+    right: 364px;
+}
+
+.kisaLogo img {
+    width: 100%;
+    height: 100%;
+    filter: drop-shadow(10px 10px 20px #9c9c9c);
+}
+
+.wanderingDiv {
+    width: 82.81%;
+    height: 520px;
+    margin: -302px auto 0 auto;
+    display: flex;
+}
+
+.loiteringImgDiv {
+    width: 520px;
+    height: 520px;
+}
+
+.loiteringImgDiv img {
+    width: 100%;
+    height: 100%;
+}
+
+.wanderingDiv .textArea {
+    width: auto;
+    height: auto;
+    margin: 0 0 0 20px;
+}
+
+.wanderingDiv .textArea h1 {
+    opacity: 0.2;
+    font-family: S-CoreDream-8Heavy;
+    font-size: 120px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    text-align: left;
+    color: #14606e;
+    margin: 322px 0 0;
+}
+
+.wanderingDiv .textArea p {
+    font-family: SpoqaHanSansNeo-Regular;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+    margin: 0 0;
+}
+
+.breakingDiv {
+    width: 82.81%;
+    height: 520px;
+    margin: 94px 260px 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.breakingImgDiv {
+    width: 656px;
+    height: 520px;
+}
+
+.breakingImgDiv img {
+    width: 100%;
+    height: 100%;
+}
+
+.breakingDiv .textArea {
+    width: auto;
+    height: auto;
+    margin: 0 18px 0 0;
+}
+
+.breakingDiv .textArea h1 {
+    opacity: 0.2;
+    font-family: S-CoreDream-8Heavy;
+    font-size: 120px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    text-align: right;
+    color: #6366ad;
+    margin: 0 0;
+}
+
+.breakingDiv .textArea p {
+    font-family: SpoqaHanSansNeo-Regular;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: right;
+    color: #707070;
+    margin: 76px 0 0;
+}
+
+.abandonmentDiv {
+    width: 980px;
+    height: 740px;
+    margin: 5px auto 140px;
+    display: flex;
+    flex-direction: column;
+}
+
+.abandonmentImgDiv {
+    width: 980px;
+    height: 520px;
+    margin: 30px auto 0;
+}
+
+.abandonmentImgDiv img {
+    width: 100%;
+    height: 100%;
+}
+
+.abandonmentDiv .textArea {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+
+.abandonmentDiv .textArea h1 {
+    opacity: 0.2;
+    font-family: S-CoreDream-8Heavy;
+    font-size: 120px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    text-align: center;
+    color: #3fa9f5;
+    margin: 0 auto;
+}
+
+.abandonmentDiv .textArea p {
+    font-family: SpoqaHanSansNeo-Regular;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #707070;
+    margin: 0 auto;
+}
+
+.introduceBack {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(9deg, #f9f9fa 85%, #fff 15%);
+}
+
+.introduceDiv {
+    width: 80.42%;
+    height: auto;
+    margin: 309px auto 132px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.introduceDiv .textArea {
+    width: auto;
+    height: auto;
+    margin: 0 0 37px;
+}
+
+.introduceDiv .textArea h1 {
+    font-family: S-CoreDream-8Heavy;
+    font-size: 58px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.27;
+    letter-spacing: normal;
+    text-align: left;
+    color: #16284d;
+    margin: 0 0;
+}
+
+.introduceDiv .textArea h2 {
+    display: none;
+}
+
+.introduceContent {
+    width: 100%;
+    height: auto;
+    background-color: #f9f9fa;
+    display: flex;
+}
+
+.introduceContent .introduceImgDiv {
+    width: 700px;
+    height: auto;
+    margin: 0 24px 0 0;
+    /* background: url(../../imgs/main/introduce.png);
+    background-size: cover;
+    background-position: 50% 100%; */
+}
+
+.introduceContent .introduceImgDiv img {
+    width: 100%;
+    height: 100%;
+}
+
+.introduceContent .introduceBox {
+    width: auto;
+    height: auto;
+}
+
+.introduceContent .introduceBox .introduceBoxInfo {
+    display: flex;
+    flex-direction: column;
+    margin: 2.77% 0 0;
+}
+
+.introduceContent .introduceBox .introduceBoxInfo .title {
+    display: flex;
+    margin: 0 0 11px 0;
+}
+
+.introduceContent .introduceBox .introduceBoxInfo .title h1 {
+    font-family: S-CoreDream-8Heavy;
+    font-size: 24px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: left;
+    color: #3fa9f5;
+    margin: 0 8px 0 0;
+}
+
+.introduceContent .introduceBox .introduceBoxInfo .title span {
+    font-family: S-CoreDream-8Heavy;
+    font-size: 24px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: left;
+    color: #113b73;
+    margin: 0 0;
+}
+
+.introduceContent .introduceBox .introduceBoxInfo p {
+    width: 324px;
+    font-family: SpoqaHanSansNeo-Regular;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.22;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+    margin: 0 0 22px;
+}
+
+.introduceDiv .detection1Div {
+    display: none;
+}
+
+.introduceDiv .detection2Div {
+    display: none;
+}
+
+.introduceContent .introduceBox .introduceBoxInfo .detection {
+    display: flex;
+}
+
+.introduceContent .introduceBox .introduceBoxInfo .detection h1,
+.introduceContent .introduceBox .introduceBoxInfo .detection h2,
+.introduceContent .introduceBox .introduceBoxInfo .detection h3 {
+    font-family: SpoqaHanSansNeo-Bold;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.58;
+    letter-spacing: normal;
+    text-align: left;
+    margin: 0 0;
+}
+
+.introduceContent .introduceBox .introduceBoxInfo .detection h1 {
+    color: #5aa1ff;
+}
+
+.introduceContent .introduceBox .introduceBoxInfo .detection h2 {
+    color: #ce5aff;
+}
+
+.introduceContent .introduceBox .introduceBoxInfo .detection h3 {
+    color: #e32a40;
+}
+
+.introduceContent .introduceBox .introduceBoxInfo .detection .goodBox {
+    width: 30px;
+    height: 30px;
+    margin: 0 12px 11px 0;
+    border: solid 4px #5aa1ff;
+}
+
+.introduceContent .introduceBox .introduceBoxInfo .detection .maskBox {
+    width: 30px;
+    height: 30px;
+    margin: 0 12px 11px 0;
+    border: solid 4px #ce5aff;
+}
+
+.introduceContent .introduceBox .introduceBoxInfo .detection .heatBox {
+    width: 30px;
+    height: 30px;
+    margin: 0 12px 0 0;
+    border: solid 4px #e32a40;
+}
+
+.introduceDiv1 {
+    width: 100%;
+    height: auto;
+    background-color: #f9f9fa;
+    display: flex;
+}
+
+.introduceDiv1 .introduceBox1 {
+    width: 80.42%;
+    height: auto;
+    margin: 0 auto 140px;
+    display: flex;
+    flex-direction: column;
+}
+
+.introduceDiv1 .introduceBox1 .textArea h1 {
+    font-family: S-CoreDream-8Heavy;
+    font-size: 58px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.27;
+    letter-spacing: normal;
+    text-align: left;
+    color: #16284d;
+    margin: 0;
+}
+
+
+.introduceDiv1 .introduceBox1 .textArea h2 {
+    display: none;
+}
+
+.introduceDiv1 .introduceBox1 .textArea h3 {
+    display: none;
+}
+
+.introduceDiv1 .introduceBox1 .introduceContent1 {
+    margin: 37px auto 0;
+    display: flex;
+}
+
+.introduceDiv1 .introduceBox1 .introduceContent1 .content {
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.introduceDiv1 .introduceBox1 .introduceContent1 .content img {
+    width: 100%;
+    height: auto;
+}
+
+.introduceDiv1 .introduceBox1 .introduceContent1 .content .title {
+    display: flex;
+    margin: 24px 0 12px 0;
+}
+
+.introduceDiv1 .introduceBox1 .introduceContent1 .content .title span {
+    font-family: S-CoreDream-8Heavy;
+    font-size: 28px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    text-align: left;
+    color: #3fa9f5;
+    margin: 0 8px 0 0;
+}
+
+.introduceDiv1 .introduceBox1 .introduceContent1 .content .title h1 {
+    font-family: S-CoreDream-8Heavy;
+    font-size: 28px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    text-align: left;
+    color: #113b73;
+    margin: 0 0;
+}
+
+.introduceDiv1 .introduceBox1 .introduceContent1 .content p {
+    font-family: SpoqaHanSansNeo-Regular;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+    margin: 0 0;
+}
+
+.introduceDiv1 .introduceBox1 .introduceContent1 .content p1 {
+    font-family: SpoqaHanSansNeo-Regular;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+    margin: 0 0;
+    display: none;
+}
+
+.introduceDiv1 .introduceBox1 .introduceContent1 .arrowDiv {
+    width: 11.14%;
+    height: auto;
+    display: flex;
+}
+
+.introduceDiv1 .introduceBox1 .introduceContent1 .arrowDiv img {
+    width: 60px;
+    height: auto;
+    margin: 0 auto auto;
+}
+
+.umsDiv {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    margin: 0 0 0;
+}
+
+.umsguideDiv {
+    width: 1444px;
+    height: 700px;
+    margin: 0 auto 0;
+    position: relative;
+}
+
+.umsguideDiv .notebookImg {
+    width: 1086px;
+    height: auto;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+
+.umsguideDiv .reverse_notebookImg {
+    display: none;
+}
+
+.umsguideDiv .notebookImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.umsguideDiv .textArea {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 95px;
+    right: 0px;
+}
+
+.umsguideDiv .textArea .umsLogoDiv {
+    width: 214px;
+    height: 56px;
+    margin: 0 0 0 8px;
+}
+
+.umsguideDiv .textArea .umsLogoDiv img {
+    width: 100%;
+    height: 100%;
+}
+
+.umsguideDiv .textArea h1 {
+    font-family: S-CoreDream-8Heavy;
+    font-size: 58px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    text-align: left;
+    color: #16284d;
+    margin: 0 0 19px;
+}
+
+.umsguideDiv .textArea p {
+    font-family: SpoqaHanSansNeo-Medium;
+    font-size: 24px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.58;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+    margin: 0 0 19px;
+}
+
+.umsguideDiv .textArea p1 {
+    display: none;
+}
+
+.umsguideDiv .textArea .btnArea {
+    display: flex;
+}
+
+.umsguideDiv .textArea .btnArea .downloadBtn {
+    width: 220px;
+    height: 40px;
+    margin: 0 0 0;
+    border-radius: 20px;
+    border: solid 2px #3fa9f5;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.umsguideDiv .textArea .btnArea .downloadBtn span {
+    font-family: SpoqaHanSansNeo-Bold;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.22;
+    letter-spacing: normal;
+    text-align: center;
+    color: #3fa9f5;
+    margin: auto auto;
+}
+
+.umsguideDiv .textArea .btnArea .brochureBtn {
+    width: 220px;
+    margin: 0 20px 0 0;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #3fa9f5;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.umsguideDiv .textArea .btnArea .brochureBtn span {
+    font-family: SpoqaHanSansNeo-Bold;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.22;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    margin: auto auto;
+}
+
+.noonaiPagenoonaiDiv {
+    width: 100%;
+    height: auto;
+    margin: 65px 0 105px;
+    display: flex;
+    flex-direction: column;
+}
+
+.detailDiv {
+    width: 100%;
+    height: auto;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+}
+
+.detailDiv .textArea {
+    display: flex;
+    flex-direction: column;
+    margin: 132px auto 35px;
+}
+
+.detailDiv .textArea span{
+    font-family: S-CoreDream-4Regular;
+    font-size: 42px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.62;
+    letter-spacing: normal;
+    text-align: center;
+    color: #16284d;
+    margin: 0 auto 2px;
+}
+
+.detailDiv .textArea h1{
+    font-family: S-CoreDream-8Heavy;
+    font-size: 58px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    text-align: left;
+    color: #16284d;
+    margin: 0 auto;
+}
+
+.detailDiv .detailBox1 {
+    width: 80.42%;
+    height: 320px;
+    margin: 0 auto 24px;  
+    background-color: #54a7da;
+    display: flex;
+}
+
+.detailDiv .detailBox1 .detailImg {
+    width: 38.86%;
+    height: 320px;
+    background: url(http://www.mhncity.com/static/imgs/main/example1.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+/* .detailDiv .detailBox1 img {
+    width: 38.86%;
+    height: 320px;
+} */
+
+.detailDiv .detailBox1 .detailContent {
+    width: 61.14%;
+    height: 320px;
+}
+
+.detailDiv .detailBox1 .detailContent p1,
+.detailDiv .detailBox2 .detailContent p1,
+.detailDiv .detailBox3 .detailContent p1 {
+    display: none;
+}
+
+.detailDiv .detailBox1 .detailContent h1 {
+    font-family: SpoqaHanSansNeo-Bold;
+    font-size: 28px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+    margin: 46px 0 12px 46px;
+    max-width: 480px;
+}
+
+.detailDiv .detailBox1 .detailContent p {
+    font-family: SpoqaHanSansNeo-Regular;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    text-align: left;
+    color: #f2f2f2;
+    margin: 0 0 0 46px;
+    max-width: 480px;
+}
+
+.detailDiv .detailBox2 {
+    width: 80.42%;
+    height: 320px;
+    margin: 0 auto 24px;  
+    background-color: #113b73;
+    display: flex;
+}
+
+.detailDiv .detailBox2 .detailImg {
+    width: 38.86%;
+    height: 320px;
+    background: url(http://www.mhncity.com/static/imgs/main/example2.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+/* .detailDiv .detailBox2 img {
+    width: 38.86%;
+    height: 320px;
+} */
+
+.detailDiv .detailBox2 .detailContent {
+    width: 61.14%;
+    height: 320px;
+}
+
+.detailDiv .detailBox2 .detailContent h1 {
+    font-family: SpoqaHanSansNeo-Bold;
+    font-size: 28px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+    margin: 46px 0 12px 46px;
+    max-width: 480px;
+}
+
+.detailDiv .detailBox2 .detailContent p {
+    font-family: SpoqaHanSansNeo-Regular;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    text-align: left;
+    color: #f2f2f2;
+    margin: 0 0 0 46px;
+    max-width: 480px;
+}
+
+.detailDiv .detailBox3 {
+    width: 80.42%;
+    height: 320px;
+    margin: 0 auto 49px;  
+    background-color: #00979c;
+    display: flex;
+}
+
+.detailDiv .detailBox3 .detailImg {
+    width: 38.86%;
+    height: 320px;
+    background: url(http://www.mhncity.com/static/imgs/main/example3.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+/* .detailDiv .detailBox3 img {
+    width: 38.86%;
+    height: 320px;
+} */
+
+.detailDiv .detailBox3 .detailContent {
+    width: 61.14%;
+    height: 320px;
+}
+
+.detailDiv .detailBox3 .detailContent h1 {
+    font-family: SpoqaHanSansNeo-Bold;
+    font-size: 28px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+    margin: 46px 0 12px 46px;
+    max-width: 480px;
+}
+
+.detailDiv .detailBox3 .detailContent p {
+    font-family: SpoqaHanSansNeo-Regular;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    text-align: left;
+    color: #f2f2f2;
+    margin: 0 0 0 46px;
+    max-width: 480px;
+}
+
+.detailDiv .detailTop {
+    margin: 0 auto 48px;
+    width: 100%;
+    display: flex;
+}
+
+.detailDiv .detailTop .box {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1.88% 0 0;
+    width: 11.46%;
+    height: auto;
+    float: left;
+}
+
+
+.detailDiv .detailTop .box .imgBox {
+    display: flex;
+    margin: 0 0 10px;
+    width: 100%;
+    height: 100%;
+    float: left;
+    border-radius: 50%;
+}
+
+.detailDiv .detailTop .box:nth-child(1){
+    margin: 0 1.88% 0 auto;
+}
+
+.detailDiv .detailTop .box:nth-child(6){
+    margin: 0 auto 0 0;
+}
+
+.detailDiv .detailTop .box p {
+    font-family: SpoqaHanSansNeo-Regular;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #212121;
+    margin: 0 auto;
+}
+
+.detailDiv .detailTop .box span {
+    font-family: SpoqaHanSansNeo-Regular;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #212121;
+    margin: 0 auto;
+    display: none;
+}
+
+.detailDiv .detailBottom {
+    margin: 0 auto 70px;
+    width: 100%;
+    display: flex;
+}
+
+
+.detailDiv .detail1,
+.detailDiv .detail2,
+.detailDiv .detail3,
+.detailDiv .detail4 {
+    display: none;
+}
+
+.detailDiv .detailBottom .box {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1.88% 0 0;
+    width: 11.46%;
+    height: auto;
+    float: left;
+}
+
+.detailDiv .detailBottom .box .imgBox {
+    display: flex;
+    margin: 0 0 8px;
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.detailDiv .detailBottom .box:nth-child(1){
+    margin: 0 1.88% 0 auto;
+}
+
+.detailDiv .detailBottom .box:nth-child(6){
+    margin: 0 auto 0 0;
+}
+
+.detailDiv .detailBottom .box p {
+    font-family: SpoqaHanSansNeo-Regular;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #212121;
+    margin: 0 auto;
+}
+
+
+.detailDiv .detailBottom .box span {
+    font-family: SpoqaHanSansNeo-Regular;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #212121;
+    margin: 0 auto;
+    display: none;
+}
+
+.needsDiv {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.needsDiv .textArea {
+    width: 80.42%;
+    height: auto;
+    margin: 128px auto 38px;
+    display: flex;
+}
+
+.needsDiv .textArea h1 {
+    width: 550px;
+    font-family: S-CoreDream-8Heavy;
+    font-size: 58px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    text-align: left;
+    color: #16284d;
+    margin: auto 24px auto 0;
+}
+
+.needsDiv .textArea h2 {
+    display: none;
+}
+
+.needsDiv .textArea p {
+    width: 582px;
+    font-family: SpoqaHanSansNeo-Regular;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+    margin: auto 0;
+}
+
+.needsDiv .needsContent {
+    width: 80.42%;
+    height: auto;
+    margin: 0 auto 140px;
+    display: flex;
+    flex-direction: column;
+}
+
+.needsDiv .needsContent .topDiv {
+    width: auto;
+    height: auto;
+    display: flex;
+    margin: 0;
+}
+
+.needsDiv .needsContent .topDiv .imgBox {
+    width: 48.45%;
+    height: auto;
+    display: flex;
+    position: relative;
+    margin: 0 3.11% 0 0;
+}
+
+.needsDiv .needsContent .topDiv .imgBox:nth-child(2) {
+    margin: 0 0 0 0;
+}
+
+.needsDiv .needsContent .topDiv .imgBox img {
+    width: 100%;
+    height: auto;
+}
+
+.needsDiv .needsContent .imgBox .explanation {
+    width: 64.17%;
+    height: auto;
+    position: absolute;
+    left: 40px;
+    bottom: 36px;
+    display: flex;
+    flex-direction: column;
+}
+
+.needsDiv .needsContent .imgBox .explanation h1 {
+    font-family: SpoqaHanSansNeo-Bold;
+    font-size: 28px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+    margin: 0 0 12px;
+}
+
+.needsDiv .needsContent .imgBox .explanation p {
+    font-family: SpoqaHanSansNeo-Regular;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    text-align: left;
+    color: #f2f2f2;
+    margin: 0;
+}
+
+@media (max-width:1920px){
+    .umsguideDiv {
+        width: 1444px;
+        height: 700px;
+        margin: 0 288px 0 auto;
+        position: relative;
+    }
+
+    .introduceDiv1 .introduceBox1 .introduceContent1 {
+        margin: 37px 0 0;
+        display: flex;
+    }
+}
+
+@media (max-width:1919px){
+    .umsguideDiv {
+        width: 75.21%;
+        height: 700px;
+        margin: 0 288px 0 auto;
+        position: relative;
+    }
+    
+    .umsguideDiv .notebookImg {
+        width: 75.21%;
+        height: auto;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+    }
+
+    .introduceDiv1 .introduceBox1 .introduceContent1 .content p {
+        display: none;
+    }
+
+    .introduceDiv1 .introduceBox1 .introduceContent1 .content p1 {
+        display: block;
+    }
+
+    .introduceDiv1 .introduceBox1 .introduceContent1 .arrowDiv img {
+        display: none;
+    }
+}
+
+
+@media (max-width:1600px){
+    .kisaDiv {
+        width: 82.81%;
+        height: 1361px;
+        margin: 123px 60px 0 auto;
+        position: relative;
+    }
+
+    .Certificate {
+        width: 480px;
+        height: 680px;
+        position: absolute;
+        top: 457px;
+        right: 249px;
+    }
+
+    .kisaLogo {
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        bottom: 98px;
+        right: 613px;
+    }
+
+    .wanderingDiv {
+        width: 82.81%;
+        height: 520px;
+        margin: 0 auto 0 auto;
+        display: flex;
+    }
+
+    .umsguideDiv {
+        width: 80.42%;
+        height: 569px;
+        margin: 0 auto 0 auto;
+        position: relative;
+    }
+
+    .umsguideDiv .notebookImg {
+        display: none;
+    }
+
+    .umsguideDiv .reverse_notebookImg {
+        width: 62.56%;
+        height: auto;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        display: block;
+    }
+
+    .umsguideDiv .reverse_notebookImg img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .umsguideDiv .textArea {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 140px;
+        bottom: 0px;
+        left: 0px;
+    }
+}
+
+@media (max-width:1599px){
+    .wanderingDiv {
+        height: auto;
+        position: relative;
+    }
+
+    .loiteringImgDiv {
+        width: 32.7%;
+        height: auto;
+    }
+
+    .loiteringImgDiv img {
+        width: 100%;
+        height: auto;
+    }
+
+    .wanderingDiv .textArea {
+        width: auto;
+        height: auto;
+        position: absolute;
+        margin: 0;
+        left: 33.96%;
+        bottom: 2px;
+    }
+
+    .breakingDiv {
+        height: auto;
+        position: relative;
+    }
+
+    .breakingImgDiv {
+        width: 41.26%;
+        height: auto;
+    }
+
+    .breakingImgDiv img {
+        width: 100%;
+        height: auto;
+    }
+
+    .breakingDiv .textArea {
+        width: auto;
+        height: auto;
+        position: absolute;
+        margin: 0;
+        right: 42.39%;
+        top: 2px;
+    }
+
+    .breakingDiv .textArea p {
+        margin: 0 0 0;
+    }
+
+    .abandonmentDiv {
+        height: auto;
+        position: relative;
+    }
+
+    .abandonmentImgDiv {
+        width: 61.64%;
+        height: auto;
+    }
+
+    .abandonmentImgDiv img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width:1450px){
+    .detailDiv .detailTop .box p {
+        display: none;
+    }
+
+    .detailDiv .detailTop .box span {
+        display: block;
+    }
+
+    .detailDiv .detailTop .box span .blank {
+        height: 15px;
+    }
+
+    .detailDiv .detailBottom .box p {
+        display: none;
+    }
+
+    .detailDiv .detailBottom .box span {
+        display: block;
+    }
+
+    .detailDiv .detailBottom .box span .blank {
+        height: 15px;
+    }
+}
+
+@media (max-width:1200px){
+    .kisaDiv {
+        width: auto;
+        height: 1361px;
+        margin: 123px 3.75% 0;
+        position: relative;
+    }
+
+    .Certificate {
+        width: 480px;
+        height: 680px;
+        position: absolute;
+        top: 457px;
+        right: 0px;
+    }
+
+    .kisaLogo {
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        bottom: 98px;
+        right: 40%;
+    }
+
+    .wanderingDiv {
+        width: 100%;
+        height: auto;
+        margin: 0 auto 0 0;
+        display: flex;
+    }
+
+    .breakingDiv {
+        width: 100%;
+        height: auto;
+        margin: 94px 0 0 auto;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .abandonmentDiv {
+        width: 100%;
+        height: auto;
+        margin: 5px 0 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .abandonmentImgDiv {
+        width: 82.81%;
+        height: auto;
+        margin: 30px auto 0 0;
+    }
+
+    .introduceDiv {
+        width: auto;
+        height: auto;
+        margin: 222px 3.75% 132px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .introduceDiv1 {
+        width: auto;
+        height: auto;
+        margin: 0 3.75% 140px;
+        background-color: #f9f9fa;
+        display: flex;
+    }
+
+    .introduceDiv1 .introduceBox1 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .umsDiv {
+        width: 100%;
+        height: auto;
+        background-color: #fff;
+        /* margin: 50px 0 0; */
+    }
+
+    .introduceDiv1 .introduceBox1 .introduceContent1 {
+        width: 100%;
+        margin: 37px 0 0;
+        display: flex;
+    }
+
+    .introduceDiv1 .introduceBox1 .introduceContent1 .content {
+        width: 300px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .introduceDiv1 .introduceBox1 .introduceContent1 .content:nth-child(1) {
+        margin: 0 auto 0 0;
+    }
+
+    .introduceDiv1 .introduceBox1 .introduceContent1 .content:nth-child(3) {
+        margin: 0 auto 0 ;
+    }
+
+    .introduceDiv1 .introduceBox1 .introduceContent1 .content:nth-child(5) {
+        margin: 0 0 0 auto;
+    }
+
+    .introduceDiv1 .introduceBox1 .introduceContent1 .arrowDiv {
+        width: 11.14%;
+        height: auto;
+        display: none;
+    }
+
+    .umsguideDiv {
+        width: 92.5%;
+        height: 569px;
+        margin: 0 auto 0 auto;
+        position: relative;
+    }
+
+    .noonaiPagenoonaiDiv {
+        width: 100%;
+        height: auto;
+        margin: 65px 0 80px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .detailDiv .textArea {
+        display: flex;
+        flex-direction: column;
+        margin: 140px auto 35px;
+    }
+
+    .detailDiv .detailBox1,
+    .detailDiv .detailBox2,
+    .detailDiv .detailBox3 {
+        width: auto;
+        height: 320px;
+        margin: 0 3.75% 24px;
+    }
+
+    .detailDiv .detailBox1 .detailContent h1,
+    .detailDiv .detailBox2 .detailContent h1,
+    .detailDiv .detailBox3 .detailContent h1 {
+        margin: 24px 24px 12px;
+        max-width: none;
+    }
+
+    .detailDiv .detailBox1 .detailContent p,
+    .detailDiv .detailBox2 .detailContent p,
+    .detailDiv .detailBox3 .detailContent p {
+        display: none;
+    }
+
+    .detailDiv .detailBox1 .detailContent p1,
+    .detailDiv .detailBox2 .detailContent p1,
+    .detailDiv .detailBox3 .detailContent p1 {
+        font-family: SpoqaHanSansNeo-Regular;
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.44;
+        letter-spacing: normal;
+        text-align: left;
+        color: #f2f2f2;
+        margin: 0 24px 0;
+        max-width: none;
+        display: block;
+    }
+
+    .needsDiv .textArea {
+        width: auto;
+        height: auto;
+        margin: 80px 3.75% 38px;
+        display: flex;
+    }
+
+    .needsDiv .needsContent {
+        width: auto;
+        height: auto;
+        margin: 0 3.75% 80px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:1023px){
+    .contactDiv {
+        display: none !important;
+    }
+}
+
+@media (max-width:999px){
+    .kisaDiv {
+        width: auto;
+        height: 400px;
+        margin: 24px 4.43% 0;
+        display: flex;
+        position: relative;
+    }
+
+    .kisaDiv .textArea h1 {
+        font-family: S-CoreDream-8Heavy;
+        font-size: 28px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.36;
+        letter-spacing: normal;
+        text-align: left;
+        color: #16284d;
+        margin: 0 0 4px;
+    }
+
+    .kisaDiv .textArea p {
+        display: none;
+    }
+
+    .kisaDiv .textArea p1 {
+        max-width: 437px;
+        font-family: SpoqaHanSansNeo-Regular;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.43;
+        letter-spacing: normal;
+        text-align: left;
+        color: #707070;
+        margin: 0 12px 0 0;
+        display: block;
+    }
+
+    .Certificate {
+        width: 214px;
+        height: 302px;
+        position: relative;
+        top: 0px;
+        right: 0px;
+        margin: 8px 0 0 auto;
+    }
+
+    .kisaLogo {
+        width: 134px;
+        height: 134px;
+        position: absolute;
+        bottom: 10px;
+        right: 18%;
+    }
+
+    .wanderingDiv {
+        width: auto;
+        height: auto;
+        position: relative;
+        margin: -112px 4.43% 0;
+    }
+
+    .wanderingDiv .textArea h1 {
+        opacity: 0.2;
+        font-family: S-CoreDream-8Heavy;
+        font-size: 38px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.39;
+        letter-spacing: normal;
+        text-align: left;
+        color: #14606e;
+        margin: 0 0;
+    }
+
+    .wanderingDiv .textArea p {
+        font-family: SpoqaHanSansNeo-Regular;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.43;
+        letter-spacing: normal;
+        text-align: left;
+        color: #707070;
+        margin: 0 0;
+    }
+
+    .breakingDiv {
+        width: auto;
+        height: auto;
+        position: relative;
+        margin: 24px 4.43% 0;
+    }
+
+    .breakingDiv .textArea {
+        width: auto;
+        height: auto;
+        position: absolute;
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0;
+        right: 42.39%;
+        top: 0px;
+        bottom: 2px;
+    }
+
+    .breakingDiv .textArea h1 {
+        opacity: 0.2;
+        font-family: S-CoreDream-8Heavy;
+        font-size: 40px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.4;
+        letter-spacing: normal;
+        text-align: right;
+        color: #6366ad;
+        margin: 0 0;
+    }
+
+    .breakingDiv .textArea p {
+        font-family: SpoqaHanSansNeo-Regular;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.43;
+        letter-spacing: normal;
+        text-align: right;
+        color: #707070;
+    }
+
+    .abandonmentDiv {
+        width: auto;
+        height: auto;
+        position: relative;
+        flex-direction: row-reverse;
+        margin: 24px 4.43%;
+    }
+
+    .abandonmentDiv .textArea {
+        width: auto;
+        height: auto;
+        margin: auto 12px 2px;
+    }
+
+    .abandonmentDiv .textArea h1 {
+        opacity: 0.2;
+        font-family: S-CoreDream-8Heavy;
+        font-size: 38px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.39;
+        letter-spacing: normal;
+        text-align: left;
+        color: #3fa9f5;
+        margin: 0 auto;
+    }
+
+    .abandonmentDiv .textArea p {
+        font-family: SpoqaHanSansNeo-Regular;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.43;
+        letter-spacing: normal;
+        text-align: left;
+        color: #707070;
+        margin: 0 auto;
+    }
+
+    .abandonmentImgDiv {
+        width: 51.26% !important;
+        height: auto;
+        margin: 0;
+    }
+
+    .introduceBack {
+        width: 100%;
+        height: auto;
+        background: linear-gradient(9deg, #f9f9fa 100%, #fff 0%);
+    }
+
+    .introduceDiv {
+        width: auto;
+        height: auto;
+        margin: 0px 4.43% 62px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .introduceDiv .textArea h1 {
+        display: none;
+    }
+
+    .introduceDiv .textArea {
+        width: auto;
+        height: auto;
+        margin: 48px 0 12px;
+    }
+    
+    .introduceDiv .textArea h2 {
+        font-family: S-CoreDream-8Heavy;
+        font-size: 28px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.36;
+        letter-spacing: normal;
+        text-align: left;
+        color: #16284d;
+        display: block;
+        margin: 0;
+    }
+
+    .introduceContent .introduceImgDiv {
+        width: 272px;
+        height: 190px;
+        margin: 0 0;
+    }
+
+    .introduceContent .introduceBox .introduceBoxInfo {
+        display: flex;
+        flex-direction: column;
+        margin: 22px 0 0 24px;
+    }
+
+    .introduceContent .introduceBox .introduceBoxInfo .title {
+        display: flex;
+        margin: 0 0 4px 0;
+    }
+
+    .introduceContent .introduceBox .introduceBoxInfo .title h1 {
+        font-family: S-CoreDream-8Heavy;
+        font-size: 18px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.39;
+        letter-spacing: normal;
+        text-align: left;
+        color: #3fa9f5;
+        margin: 0 4px 0 0;
+    }
+
+    .introduceContent .introduceBox .introduceBoxInfo .title span {
+        font-family: S-CoreDream-8Heavy;
+        font-size: 18px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.39;
+        letter-spacing: normal;
+        text-align: left;
+        color: #113b73;
+        margin: 0 0;
+    }
+
+    .introduceContent .introduceBox .introduceBoxInfo p {
+        width: auto;
+        font-family: SpoqaHanSansNeo-Regular;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.43;
+        letter-spacing: normal;
+        text-align: left;
+        color: #707070;
+        margin: 0 24px 12px 0px;
+    }
+
+    .introduceContent .introduceBox .introduceBoxInfo .detection {
+        display: none;
+    }
+
+    .introduceDiv .detection1Div {
+        display: flex;
+        margin: 4px 0 0 22px;
+    }
+
+    .introduceDiv .detection1 {
+        width: auto;
+        display: flex;
+        margin: 0 14px 0 0;
+    }
+    
+    .introduceDiv .detection1 h1,
+    .introduceDiv .detection1 h2,
+    .introduceDiv .detection1 h3 {
+        font-family: SpoqaHanSansNeo-Bold;
+        font-size: 12px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.58;
+        letter-spacing: normal;
+        text-align: left;
+        margin: 0 0;
+        float: left;
+    }
+
+    .introduceDiv .detection1 h1 {
+        color: #5aa1ff;
+    }
+
+    .introduceDiv .detection1 h2 {
+        color: #ce5aff;
+    }
+
+    .introduceDiv .detection1 h3 {
+        color: #e32a40;
+    }
+
+    .introduceDiv .detection1 .goodBox {
+        width: 15px;
+        height: 15px;
+        margin: 0 6px 0 0;
+        border: solid 2px #5aa1ff;
+        float: left;
+    }
+
+    .introduceDiv .detection1 .maskBox {
+        width: 15px;
+        height: 15px;
+        margin: 0 6px 0 0;
+        border: solid 2px #ce5aff;
+        float: left;
+    }
+
+    .introduceDiv .detection1 .heatBox {
+        width: 15px;
+        height: 15px;
+        margin: 0 6px 0 0;
+        border: solid 2px #e32a40;
+        float: left;
+    }
+
+    .introduceDiv1 {
+        width: auto;
+        height: auto;
+        margin: 0 4.43% 72px;
+        background-color: #f9f9fa;
+        display: flex;
+    }
+
+    .introduceDiv1 .introduceBox1 {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .introduceDiv1 .introduceBox1 .textArea h1 {
+        display: none;
+    }
+
+    .introduceDiv1 .introduceBox1 .textArea h2 {
+        font-family: S-CoreDream-8Heavy;
+        font-size: 28px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.36;
+        letter-spacing: normal;
+        text-align: left;
+        color: #16284d;
+        margin: 0;
+        display: block;
+    }
+
+    .introduceDiv1 .introduceBox1 .introduceContent1 {
+        margin: 12px 0 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .introduceDiv1 .introduceBox1 .introduceContent1 .arrowDiv {
+        display: none;
+    }
+
+    .introduceDiv1 .introduceBox1 .introduceContent1 .content:nth-child(1),
+    .introduceDiv1 .introduceBox1 .introduceContent1 .content:nth-child(3) {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        margin: 0 0 24px;
+    }
+    
+    .introduceDiv1 .introduceBox1 .introduceContent1 .content:nth-child(5) {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+    }
+
+    .introduceDiv1 .introduceBox1 .introduceContent1 .content img {
+        width: 272px;
+        height: 190px;
+    }
+
+    .introduceDiv1 .introduceBox1 .introduceContent1 .content .contentInfo {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin: auto 24px 20px;
+    }
+
+    .introduceDiv1 .introduceBox1 .introduceContent1 .content .title {
+        display: flex;
+        margin: 0 0 4px 0;
+    }
+
+    .introduceDiv1 .introduceBox1 .introduceContent1 .content .title span {
+        font-family: S-CoreDream-8Heavy;
+        font-size: 18px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.39;
+        letter-spacing: normal;
+        text-align: left;
+        color: #3fa9f5;
+        margin: 0 8px 0 0;
+    }
+
+    .introduceDiv1 .introduceBox1 .introduceContent1 .content .title h1 {
+        font-family: S-CoreDream-8Heavy;
+        font-size: 18px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.39;
+        letter-spacing: normal;
+        text-align: left;
+        color: #113b73;
+        margin: 0 0;
+    }
+
+    .introduceDiv1 .introduceBox1 .introduceContent1 .content p1 {
+        font-family: SpoqaHanSansNeo-Regular;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.43;
+        letter-spacing: normal;
+        text-align: left;
+        color: #707070;
+        margin: 0 0;
+    }
+
+    .umsDiv {
+        width: auto;
+        height: auto;
+        background-color: #fff;
+        margin: 72px 4.43% 30px;
+    }
+
+    .umsguideDiv {
+        width: 100%;
+        height: 306px;
+        margin: 24px auto 65px auto;
+        position: relative;
+    }
+
+    .umsguideDiv .textArea {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+    }
+
+    .umsguideDiv .textArea .umsLogoDiv {
+        width: 124px;
+        height: 34px;
+        margin: 0 0 4px 8px;
+    }
+
+    .umsguideDiv .textArea h1 {
+        font-family: S-CoreDream-8Heavy;
+        font-size: 28px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.36;
+        letter-spacing: normal;
+        text-align: left;
+        color: #16284d;
+        margin: 0 0 4px;
+    }
+
+    .umsguideDiv .reverse_notebookImg {
+        width: 75.77%;
+        height: auto;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        display: block;
+    }
+
+    .umsguideDiv .textArea p {
+        font-family: SpoqaHanSansNeo-Medium;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.43;
+        letter-spacing: normal;
+        text-align: left;
+        color: #707070;
+        margin: 0 0 19px;
+    }
+
+    .umsguideDiv .textArea .btnArea {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .umsguideDiv .textArea .btnArea .brochureBtn {
+        width: 272px;
+        margin: 0 0 8px;
+        height: 30px;
+        border-radius: 20px;
+        background-color: #3fa9f5;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .umsguideDiv .textArea .btnArea .downloadBtn {
+        width: 272px;
+        height: 30px;
+        margin: 0 0 0;
+        border-radius: 20px;
+        border: solid 2px #3fa9f5;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .umsguideDiv .textArea .btnArea .brochureBtn span {
+        font-family: SpoqaHanSansNeo-Bold;
+        font-size: 16px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.31;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+        margin: auto auto;
+    }
+
+    .umsguideDiv .textArea .btnArea .downloadBtn span {
+        font-family: SpoqaHanSansNeo-Bold;
+        font-size: 16px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.31;
+        letter-spacing: normal;
+        text-align: center;
+        color: #3fa9f5;
+        margin: auto auto;
+    }
+
+    .noonaiPagenoonaiDiv {
+        width: 100%;
+        height: auto;
+        margin: 0 0 48px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .detailDiv .textArea {
+        display: flex;
+        flex-direction: column;
+        margin: 24px auto;
+    }
+
+    .detailDiv .textArea span {
+        font-family: S-CoreDream-4Regular;
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2.11;
+        letter-spacing: normal;
+        text-align: center;
+        color: #16284d;
+        margin: 0 auto;
+    }
+
+    .detailDiv .textArea h1 {
+        font-family: S-CoreDream-8Heavy;
+        font-size: 28px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.36;
+        letter-spacing: normal;
+        text-align: center;
+        color: #16284d;
+        margin: 0 auto;
+    }
+
+    .detailDiv .detailBox1 {
+        width: auto;
+        height: 200px;
+        margin: 0 4.43% 24px;
+        display: flex;
+    }
+
+    .detailDiv .detailBox2 {
+        width: auto;
+        height: 200px;
+        margin: 0 4.43% 24px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .detailDiv .detailBox3 {
+        width: auto;
+        height: 200px;
+        margin: 0 4.43% 24px;
+        display: flex;
+    }
+
+    .detailDiv .detailBox1 .detailImg {
+        width: 50%;
+        height: 100%;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+
+    .detailDiv .detailBox1 .detailImg {
+        width: 50%;
+        height: 100%;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+
+    .detailDiv .detailBox2 .detailImg {
+        width: 50%;
+        height: 100%;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+
+    .detailDiv .detailBox3 .detailImg {
+        width: 50%;
+        height: 100%;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+
+    .detailDiv .detailBox1 .detailContent,
+    .detailDiv .detailBox2 .detailContent,
+    .detailDiv .detailBox3 .detailContent {
+        width: 50%;
+        height: 100%;
+    }
+
+    .detailDiv .detailBox1 .detailContent h1, 
+    .detailDiv .detailBox2 .detailContent h1, 
+    .detailDiv .detailBox3 .detailContent h1 {
+        font-family: SpoqaHanSansNeo-Bold;
+        font-size: 18px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: left;
+        color: #fff;
+        margin: 24px 12px 4px;
+        max-width: none;
+    }
+
+    .detailDiv .detailBox1 .detailContent p1, 
+    .detailDiv .detailBox2 .detailContent p1, 
+    .detailDiv .detailBox3 .detailContent p1 {
+        font-family: SpoqaHanSansNeo-Regular;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.43;
+        letter-spacing: normal;
+        text-align: left;
+        color: #f2f2f2;
+        margin: 0 12px 0;
+    }
+
+    
+    .detailDiv .detailTop {
+        width: auto;
+        margin: 0 34px 12px;
+        display: flex;
+    }
+    .detailDiv .detailBottom {
+        width: auto;
+        margin: 0 34px 24px;
+        display: flex;
+    }
+
+    /* .detailDiv .detail1,
+    .detailDiv .detail2,
+    .detailDiv .detail3 {
+        display: flex;
+        margin: 0 24px 12px;
+    }
+
+    .detailDiv .detail4 {
+        display: flex;
+        margin: 0 24px 24px;
+    } */
+
+    .detailDiv .detailTop .box,
+    .detailDiv .detailBottom .box {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto 0;
+        width: 13vw;
+        height: auto;
+        float: left;
+    }
+    
+    .detailDiv .detailTop .box .imgBox,
+    .detailDiv .detailBottom .box .imgBox {
+        display: flex;
+        margin: 0 0 8px;
+        width: 100%;
+        height: 100%;
+        float: left;
+    }
+    
+    .detailDiv .detailTop .box:nth-child(1),
+    .detailDiv .detailBottom .box:nth-child(1) {
+        margin: 0 auto 0 0;
+    }
+    
+    .detailDiv .detailTop .box:nth-child(6),
+    .detailDiv .detailBottom .box:nth-child(6) {
+        margin: 0 0 0 auto;
+    }
+
+    .detailDiv .detailTop .box p,
+    .detailDiv .detailBottom .box p {
+        font-family: SpoqaHanSansNeo-Regular;
+        font-size: 12px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.42;
+        letter-spacing: normal;
+        text-align: center;
+        color: #212121;
+        margin: 0 auto;
+        white-space: nowrap;
+        display: block;
+    }
+
+    .detailDiv .detailTop .box span,
+    .detailDiv .detailBottom .box span {
+        display: none;
+    }
+    
+    .detailDiv .box p {
+        font-family: SpoqaHanSansNeo-Regular;
+        font-size: 12px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.42;
+        letter-spacing: normal;
+        text-align: center;
+        color: #212121;
+        margin: 0 auto;
+        white-space: nowrap;
+    }
+
+    .detailDiv .box span {
+        font-family: SpoqaHanSansNeo-Regular;
+        font-size: 12px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.42;
+        letter-spacing: normal;
+        text-align: center;
+        color: #212121;
+        margin: 0 auto;
+        white-space: nowrap;
+    }
+    
+    
+    .detailDiv .box span {
+        font-family: SpoqaHanSansNeo-Regular;
+        font-size: 12px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.42;
+        letter-spacing: normal;
+        text-align: center;
+        color: #212121;
+        margin: 0 auto;
+        display: none;
+    }
+    
+    .needsDiv {
+        width: auto;
+        height: auto;
+        display: flex;
+        margin: 0 4.43%;
+        flex-direction: column;
+        background-color: #fff;
+    }
+
+    .needsDiv .textArea {
+        width: 100%;
+        height: auto;
+        margin: 62px 0 24px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .needsDiv .textArea h1 {
+        display: none;
+    }
+
+    .needsDiv .textArea h2 {
+        width: auto;
+        font-family: S-CoreDream-8Heavy;
+        font-size: 28px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.36;
+        letter-spacing: normal;
+        text-align: left;
+        color: #16284d;
+        margin: 0;
+        display: block;
+    }
+
+    .needsDiv .textArea p {
+        width: auto;
+        font-family: SpoqaHanSansNeo-Regular;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.43;
+        letter-spacing: normal;
+        text-align: left;
+        color: #707070;
+        margin: auto 0;
+    }
+
+    .needsDiv .needsContent {
+        width: 100%;
+        height: auto;
+        margin: 0 0 48px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .needsDiv .needsContent .imgBox .explanation {
+        width: auto;
+        height: auto;
+        position: absolute;
+        left: 12px;
+        top: 10px;
+        bottom: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .needsDiv .needsContent .imgBox .explanation h1 {
+        font-family: SpoqaHanSansNeo-Bold;
+        font-size: 18px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: left;
+        color: #fff;
+        margin: 0 0 4px;
+    }
+
+    .needsDiv .needsContent .imgBox .explanation p {
+        font-family: SpoqaHanSansNeo-Regular;
+        font-size: 12px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.67;
+        letter-spacing: normal;
+        text-align: left;
+        color: #f2f2f2;
+        margin: 0 12px 0 0;
+    }
+}
+
+@media (max-width:700px){
+
+    .kisaDiv {
+        width: auto;
+        height: auto;
+        margin: 24px 24px 56px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .kisaDiv .textArea {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .kisaDiv .textArea h1 {
+        width: auto;
+        display: none;
+    }
+
+    .kisaDiv .textArea h2 {  
+        max-width: none;
+        display: block;
+        font-family: S-CoreDream-8Heavy;
+        font-size: 28px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.36;
+        letter-spacing: normal;
+        text-align: left;
+        color: #16284d;
+        margin: 0 0 4px;
+    }
+
+    .kisaDiv .textArea p1 {
+        max-width: none;
+        margin: 0 auto 0 ;
+    }
+
+    .Certificate {
+        width: 214px;
+        height: 302px;
+        position: relative;
+        top: 0px;
+        right: 0px;
+        margin: 24px 0 0 auto;
+    }
+
+    .Certificate img {
+        filter: drop-shadow(0px 0px 6px #9c9c9c);
+    }
+
+    .kisaLogo {
+        width: 134px;
+        height: 134px;
+        position: relative;
+        bottom: 0px;
+        right: 0px;
+        margin: -56px auto 0 0;
+    }
+
+    .kisaLogo img {
+        filter: drop-shadow(0px 0px 6px #9c9c9c);
+    }
+
+    .wanderingDiv {
+        width: auto;
+        height: auto;
+        position: relative;
+        flex-direction: column;
+        margin: 0 24px 0;
+    }
+
+    .wanderingDiv .textArea {
+        width: 100%;
+        height: auto;
+        position: relative;
+        margin: 0 auto;
+        left: 0px;
+        bottom: 0px;
+    }
+
+    .loiteringImgDiv {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .breakingDiv {
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        position: relative;
+        margin: 24px 24px 0;
+    }
+
+    .breakingImgDiv {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .breakingDiv .textArea {
+        width: 100%;
+        height: auto;
+        position: relative;
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0 auto;
+        right: 0px;
+        top: 0px;
+        bottom: 0px;
+    }
+
+    .breakingDiv .textArea p,
+    .breakingDiv .textArea h1 {
+        text-align: left;
+    }
+
+    .abandonmentDiv {
+        width: auto;
+        height: auto;
+        position: relative;
+        flex-direction: column-reverse;
+        margin: 24px 24px 48px;
+    }
+
+    .abandonmentImgDiv {
+        width: 100% !important;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .abandonmentDiv .textArea {
+        width: 100%;
+        height: auto;
+        margin: 4px auto 0px;
+    }
+
+    .introduceDiv {
+        width: auto;
+        height: auto;
+        margin: 0px 24px 48px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .introduceDiv .textArea h2 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .introduceContent {
+        width: 100%;
+        height: auto;
+        background-color: #f9f9fa;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .introduceContent .introduceImgDiv {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .introduceContent .introduceBox {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .introduceContent .introduceBox .introduceBoxInfo {
+        display: flex;
+        flex-direction: column;
+        margin: 24px 0 0;
+    }
+
+    .introduceDiv .detection1Div {
+        display: none;
+    }
+
+    .introduceDiv .detection2Div {
+        display: flex;
+        width: 272px;
+        margin: 4px auto 0;
+    }
+
+    .introduceDiv .detection2 {
+        width: auto;
+        display: flex;
+        margin: 0 14px 0 0;
+    }
+    
+    .introduceDiv .detection2 h1,
+    .introduceDiv .detection2 h2,
+    .introduceDiv .detection2 h3 {
+        font-family: SpoqaHanSansNeo-Bold;
+        font-size: 12px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.58;
+        letter-spacing: normal;
+        text-align: left;
+        margin: 0 0;
+        float: left;
+    }
+
+    .introduceDiv .detection2 h1 {
+        color: #5aa1ff;
+    }
+
+    .introduceDiv .detection2 h2 {
+        color: #ce5aff;
+    }
+
+    .introduceDiv .detection2 h3 {
+        color: #e32a40;
+    }
+
+    .introduceDiv .detection2 .goodBox {
+        width: 15px;
+        height: 15px;
+        margin: 0 6px 0 0;
+        border: solid 2px #5aa1ff;
+        float: left;
+    }
+
+    .introduceDiv .detection2 .maskBox {
+        width: 15px;
+        height: 15px;
+        margin: 0 6px 0 0;
+        border: solid 2px #ce5aff;
+        float: left;
+    }
+
+    .introduceDiv .detection2 .heatBox {
+        width: 15px;
+        height: 15px;
+        margin: 0 6px 0 0;
+        border: solid 2px #e32a40;
+        float: left;
+    }
+
+    .introduceDiv1 {
+        width: auto;
+        height: auto;
+        margin: 0 24px 24px;
+        background-color: #f9f9fa;
+        display: flex;
+    }
+
+    .introduceDiv1 .introduceBox1 {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .introduceDiv1 .introduceBox1 .textArea h2 {
+        display: none;
+    }
+
+    .introduceDiv1 .introduceBox1 .textArea h3 {
+        width: 100%;
+        font-family: S-CoreDream-8Heavy;
+        font-size: 28px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.36;
+        letter-spacing: normal;
+        text-align: left;
+        color: #16284d;
+        margin: 0;
+        display: block;
+    }
+
+    .introduceDiv1 .introduceBox1 .introduceContent1 .content img {
+        width: 100%;
+        height: auto;
+    }
+
+    .introduceDiv1 .introduceBox1 .introduceContent1 {
+        margin: 12px 0 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .introduceDiv1 .introduceBox1 .introduceContent1 .content:nth-child(1), 
+    .introduceDiv1 .introduceBox1 .introduceContent1 .content:nth-child(3) {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 24px;
+    }
+
+    .introduceDiv1 .introduceBox1 .introduceContent1 .content:nth-child(5) {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .introduceDiv1 .introduceBox1 .introduceContent1 .content .contentInfo {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 12px 12px 24px 0;
+    }
+
+    .umsDiv {
+        width: auto;
+        height: auto;
+        background-color: #fff;
+        margin: 0;
+    }
+
+    .umsguideDiv {
+        width: auto;
+        min-height: 382px;
+        max-height: 400px;
+        margin: 48px 24px 12px;
+        position: relative;
+    }
+
+    .umsguideDiv .reverse_notebookImg {
+        width: 274px;
+        height: auto;
+        position: absolute;
+        bottom: unset;
+        top: 38px;
+        right: -10px;
+        left: unset;
+        display: block;
+    }
+
+    .umsguideDiv .textArea {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        margin: 0;
+    }
+
+    .umsguideDiv .textArea .umsLogoDiv {
+        width: 124px;
+        height: 34px;
+        margin: 0 0 4px 4px;
+    }
+
+    .umsguideDiv .textArea h1 {
+        width: 132px;
+        font-family: S-CoreDream-8Heavy;
+        font-size: 28px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.36;
+        letter-spacing: normal;
+        text-align: left;
+        color: #16284d;
+        margin: 0 0 48px;
+    }
+
+    .umsguideDiv .textArea p {
+        display: none;
+    }
+    
+    .umsguideDiv .textArea p1 {
+        display: block;
+        width: 100%;
+        font-family: SpoqaHanSansNeo-Medium;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.43;
+        letter-spacing: normal;
+        text-align: left;
+        color: #707070;
+        margin: 0 0 24px;
+    }
+
+    .detailDiv .textArea {
+        display: flex;
+        flex-direction: column;
+        margin: 48px 24px 24px;
+    }
+
+    .detailDiv .textArea span,
+    .detailDiv .textArea h1 {
+        width: 100%;
+        text-align: left;
+    }
+
+    .umsguideDiv .textArea .btnArea .brochureBtn,
+    .umsguideDiv .textArea .btnArea .downloadBtn {
+        width: 100%;
+        margin: 0 0 8px;
+    }
+
+    .detailDiv {
+        width: 100%;
+        height: auto;
+        background-color: #f2f2f2;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .detailDiv .detailTop,
+    .detailDiv .detailBottom {
+        display: none;
+    }
+
+    .detailDiv .detail1,
+    .detailDiv .detail2,
+    .detailDiv .detail3 {
+        display: flex;
+        margin: 0 24px 12px;
+    }
+
+    .detailDiv .detail4 {
+        display: flex;
+        margin: 0 24px 24px;
+    }
+
+    .detailDiv .box {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto 0;
+        width: 26vw;
+        height: auto;
+        float: left;
+    }
+    
+    .detailDiv .box .imgBox {
+        display: flex;
+        margin: 0 0 8px;
+        width: 100%;
+        height: 100%;
+        float: left;
+    }
+    
+    .detailDiv .box:nth-child(1){
+        margin: 0 auto 0 0;
+    }
+    
+    .detailDiv .box:nth-child(3){
+        margin: 0 0 0 auto;
+    }
+
+    .detailDiv .detailBox1,
+    .detailDiv .detailBox3 {
+        width: auto;
+        height: 400px;
+        margin: 0 24px 24px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .detailDiv .detailBox2 {
+        width: auto;
+        height: 400px;
+        margin: 0 24px 24px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .detailDiv .detailBox1 .detailImg,
+    .detailDiv .detailBox2 .detailImg,
+    .detailDiv .detailBox3 .detailImg,
+    .detailDiv .detailBox1 .detailContent, 
+    .detailDiv .detailBox2 .detailContent, 
+    .detailDiv .detailBox3 .detailContent {
+        width: 100%;
+        height: 200px;
+    }
+
+    .needsDiv {
+        width: auto;
+        height: auto;
+        display: flex;
+        margin: 0 24px;
+        flex-direction: column;
+        background-color: #fff;
+    }
+
+    .needsDiv .textArea h1,
+    .needsDiv .textArea p {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .needsDiv .textArea {
+        width: 100%;
+        height: auto;
+        margin: 24px 0 16px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .needsDiv .needsContent .topDiv {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .needsDiv .needsContent .topDiv .imgBox {
+        width: 100%;
+        height: auto;
+        display: flex;
+        position: relative;
+        margin: 0 0 12px;
+    }
+}

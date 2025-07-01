@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="kor" dir="ltr">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="./static/imgs/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="96x96" href="./static/imgs/favicon/favicon_96x96.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./static/imgs/favicon/favicon_32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./static/imgs/favicon/favicon_16x16.png">
+    <link rel="icon" href="./static/imgs/favicon/favicon.ico">
+    <link rel="manifest" href="./static/imgs/favicon/manifest.json">
+
+    <title>MHNCity</title>
+
+    <link rel="stylesheet" href="css/main/base.css" type="text/css" />
+    <link rel="stylesheet" href="css/commit/header.css" type="text/css" />
+    <link rel="stylesheet" href="css/commit/footer.css" type="text/css" />
+    <link rel="stylesheet" href="css/commit/leftmeun.css" type="text/css" />
+    <link rel="stylesheet" href="css/commit/noonai.css" type="text/css" />
+    <link rel="stylesheet" href="./static/jBox/jBox.all.min.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href=http://www.mhncity.com/noonai">
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/SHS.Web.Common.js"></script>
+    <script type="text/javascript" src="js/SHS.Web.Init.js"></script>
+    <script type="text/javascript" src="js/SHS.Web.Main.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="./static/jBox/jBox.all.min.js"></script>
+    <script src="./static/js/common/jquery-3.5.1.min.js"></script>
+    <script src="js/commit/leftmeun.js"></script>
+    <script src="js/main/main.js"></script>
+    <script src="./static/js/common/common.js"></script>
+    <script src="js/commit/header.js"></script>
+    <script src="static/js/common/footer.js"></script>
+    <script src="js/commit/side.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
+
+<body>
+    <div class="main_inner">
+        <div id="leftMenu">
+            <div class="inner">
+                <div class="leftMenu_header">
+                    <a href="/"><div class="m_logo"><img src="./static/imgs/common/mhncity_new_logo.png"></div></a>
+                    <div class="m_closeBtn"><img src="./static/imgs/common/nav/select_Close@3x.png"></div>
+                </div>
+                <div class="leftMenu_content">
+                    <a href="/company"><div class="m_header_menu" ><p>Company</p></div></a>
+                    <a href="/noonai"><div class="m_header_menu"><p>noonAI</p></div></a>
+                    <a href="/itsolution"><div class="m_header_menu"><p>IT solution</p></div></a>
+                    <a href="/community"><div class="m_header_menu"><p>Community</p></div></a>
+                    <div class="leftMenu_line"></div>
+                    <div class="sns_icon">
+                        <a href="https://m.post.naver.com/my.naver?memberNo=57189921" target="_blank"><img class="m_snsImg" src="./static/imgs/common/nav/color_post.png"></a>
+                        <a href="https://instagram.com/noonai__lab?igshid=YmMyMTA2M2Y=" target="_blank"><img class="m_snsImg" src="./static/imgs/common/nav/insta_c_ico@3x.png"></a>
+                        <a href="https://pf.kakao.com/_HxkIKs" target="_blank"><img class="m_snsImg" src="./static/imgs/common/nav/kkoc_c_ico@3x.png"></a>
+                    </div>
+                    <a href="/contact"><div class="line_m_header_menu"><p>문의하기</p></div></a>
+                    <a href="https://psychedelic-cruiser-61a.notion.site/MHNcity-Culture-Deck-3b38c5aa1d234f8f9e1ac91160eecfb1" target="_blank"><div class="line_m_header_menu"><p>채용안내</p></div></a>
+                </div>
+                <div class="leftMenu_footer"><p>copyright © all rights reserved mhncity</p></div>
+            </div>
+        </div>
+        <div class="header">
+            <div class="header_content">
+                <div class="logo"><img class="logo_img" src="http://www.mhncity.com/static/imgs/common/mhncity_new_logo.png"></div>
+                <div class="header_company"><p>Company</p></div>
+                <div class="header_noonai"><p>noonAI</p></div>
+                <div class="header_itsolution"><p>IT solution</p></div>
+                <div class="header_community"><p>Community</p></div>
+                <div class="m_menuBtn"></div>
+            </div>
+            <div class="header_contact"><span>문의하기</span></div>
+        </div>
+        <div class="side_menu">
+            <ul>
+                <li class="scroll page1"><a href="#page-1"><div class="line"></div><div class="circle"><div class="incircle"></div></div><p>noonAI</p></a></li>
+                <li class="scroll"><a href="#page-2"><div class="line"></div><div class="circle"><div class="incircle"></div></div><p>기술 소개</p></a></li>
+                <li class="scroll"><a href="#page-3"><div class="line"></div><div class="circle"><div class="incircle"></div></div><p>서비스 소개</p></a></li>
+                <li class="scroll"><a href="#page-4"><div class="line"></div><div class="circle"><div class="incircle"></div></div><p>적용 분야</p></a></li>
+                <li class="scroll"><a href="#page-5"><div class="line"></div><div class="circle"><div class="incircle"></div></div><p>맞춤 서비스</p></a></li>
+            </ul>
+        </div>
+        <div class="main_content">
+            <div class="page noonaiPageImg" id="page-1">
+                <img class="logoImg" src="http://www.mhncity.com/static/imgs/new_img/noonai_main.png">
+                <img class="etcImg" src="http://www.mhncity.com/static/imgs/new_img/noonai_logo.png">
+            </div>
+            <div class="page noonai_main_content" id="page-2">
+                <div class=" backDiv">
+                    <div class="kisaDiv">
+                        <div class="textArea">
+                            <h1>Computer Vision<br>
+                                Artificial Intelligence-based<br>
+                                Video Analysis Solution
+                            </h1>
+                            <h2>Computer Vision<br>
+                                AI-based Video <br>
+                                Analysis Solution
+                            </h2>
+                            <p>
+                                눈(Eye)이란 의미와 함께 전성기를 뜻하는 눈(noon)과<br>
+                                인공지능(AI)이 결합된 눈아이는 한국인터넷진흥원(KISA)에서 주관한<br>
+                                영상 내 특정 행위를 자동으로 식별하는 영상 분석 솔루션 성능 인증 시험에서<br>
+                                배회, 침입, 유기 등 세 가지 분야를 90% 이상 정확하게 탐지하여<br>
+                                성능을 인증받았습니다.
+                            </p>
+                        </div>
+                        <div class="Certificate" id="certi">
+                            <img src="http://www.mhncity.com/static/imgs/main/Certificate.png">
+                        </div>
+                        <div class="kisaLogo" id="kisa">
+                            <img src="http://www.mhncity.com/static/imgs/main/kisa_mark.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="wanderingDiv">
+                    <div class="loiteringImgDiv">
+                        <img src="http://www.mhncity.com/static/imgs/main/loitering.png">
+                    </div>
+                    <div class="textArea">
+                        <h1>Loitering</h1>
+                        <p>일정시간 이상 지정 구역에 머무는 사람 감지</p>
+                    </div>
+                </div>
+                <div class="breakingDiv">
+                    <div class="breakingImgDiv">
+                        <img src="http://www.mhncity.com/static/imgs/main/breaking.png">
+                    </div>
+                    <div class="textArea">
+                        <p>지정 구역을 넘어오는 사람 및 사물 감지</p>
+                        <h1>Intrusion</h1>
+                    </div>
+                </div>
+                <div class="abandonmentDiv">
+                    <div class="textArea">
+                        <h1>Abandonment</h1>
+                        <p>지정 구역 내 오물 투기 및 유기된 사물 감지</p>
+                    </div>
+                    <div class="abandonmentImgDiv">
+                        <img src="http://www.mhncity.com/static/imgs/main/Abandonment.png">
+                    </div>
+                </div>
+                <div class="introduceBack">
+                    <div class="introduceDiv">
+                        <div class="textArea">
+                            <h1>양안 카메라를 통한<br>
+                                실시간 탐지 다중 객체 인식<br>
+                                및 열 감지 기능
+                            </h1>
+                            <h2>양안 카메라를 통한<br>
+                                실시간 탐지 다중 객체 인식 및 열 감지 기능
+                            </h2>
+                        </div>
+                        <div class="introduceContent">
+                            <div class="introduceImgDiv">
+                                <img src="http://www.mhncity.com/static/imgs/main/introduce.png">
+                            </div>
+                            <div class="detection2Div">
+                                <div class="detection2">
+                                    <div class="goodBox"></div>
+                                    <h1>정상</h1>
+                                </div>
+                                <div class="detection2">
+                                    <div class="maskBox"></div>
+                                    <h2>마스크 미착용</h2>
+                                </div>
+                                <div class="detection2">
+                                    <div class="heatBox"></div>
+                                    <h3>발열 감지</h3>
+                                </div>
+                            </div>
+                            <div class="introduceBox">
+                                <div class="introduceBoxInfo">
+                                    <div class="title">
+                                        <h1>01</h1>
+                                        <span>열감지</span>
+                                    </div>
+                                    <p>
+                                        Multi Object Detection 및<br>
+                                        영역 지정을 통한 다중 출입인원 발열 감지가 가능합니다.
+                                    </p>
+                                    <div class="title">
+                                        <h1>02</h1>
+                                        <span>마스크 감지</span>
+                                    </div>
+                                    <p>
+                                        Mask Classification을 통한<br>
+                                        다중 출입 인원의 마스크 착용 여부 감지가 가능합니다.
+                                    </p>
+                                    <div class="detection">
+                                        <div class="goodBox"></div>
+                                        <h1>정상</h1>
+                                    </div>
+                                    <div class="detection">
+                                        <div class="maskBox"></div>
+                                        <h2>마스크 미착용</h2>
+                                    </div>
+                                    <div class="detection">
+                                        <div class="heatBox"></div>
+                                        <h3>발열 감지</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="detection1Div">
+                            <div class="detection1">
+                                <div class="goodBox"></div>
+                                <h1>정상</h1>
+                            </div>
+                            <div class="detection1">
+                                <div class="maskBox"></div>
+                                <h2>마스크 미착용</h2>
+                            </div>
+                            <div class="detection1">
+                                <div class="heatBox"></div>
+                                <h3>발열 감지</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="introduceDiv1">
+                        <div class="introduceBox1">
+                            <div class="textArea">
+                                <h1>
+                                    영상 내 객체 프라이버시 영역<br>
+                                    비식별화 및 복원 기능
+                                </h1>
+                                <h2>
+                                    영상 내 객체<br>
+                                    프라이버시 영역 비식별화 및 복원 기능
+                                </h2>
+                                <h3>
+                                    영상 내 객체<br>
+                                    프라이버시 영역 <br>
+                                    비식별화 및 복원 기능
+                                </h3>
+                            </div>
+                            <div class="introduceContent1">
+                                <div class="content">
+                                    <img id="basicImg" src="http://www.mhncity.com/static/imgs/main/detection.png">
+                                    <div class="contentInfo">
+                                        <div class="title">
+                                            <span>01</span>
+                                            <h1>영상 내 객체 인식</h1>
+                                        </div>
+                                        <p>
+                                            Multi Object Detection을 통한 출입<br>
+                                            인원 개인 정보 인식
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="arrowDiv" id="arrow1">
+                                    <img src="http://www.mhncity.com/static/imgs/common/new_arrow.png">
+                                </div>
+                                <div class="content">
+                                    <img src="http://www.mhncity.com/static/imgs/common/mosic_img.png">
+                                    <div class="contentInfo">
+                                        <div class="title">
+                                            <span>02</span>
+                                            <h1>개인 정보 비식별화</h1>
+                                        </div>
+                                        <p>
+                                            출입 인원 개인 정보 비식별화 처리 및<br>
+                                            암호화 저장
+                                        </p>
+                                        <p1>
+                                            출입 인원 개인 정보 비식별화 처리 및 암호화 저장
+                                        </p1>
+                                    </div>
+                                </div>
+                                <div class="arrowDiv" id="arrow2">
+                                    <img src="http://www.mhncity.com/static/imgs/common/new_arrow.png">
+                                </div>
+                                <div class="content">
+                                    <img src="http://www.mhncity.com/static/imgs/common/recovery_img.png">
+                                    <div class="contentInfo">
+                                        <div class="title">
+                                            <span>03</span>
+                                            <h1>비식별화 원본 복원</h1>
+                                        </div>
+                                        <p>
+                                            복원을 통해 원본 확인 가능<br>
+                                            (본인 외 원본 열람 불가)
+                                        </p>
+                                        <p1>
+                                            복원을 통해 원본 확인 가능 (본인 외 원본 열람 불가)
+                                        </p1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="page umsDiv" id="page-3">
+                <div class="umsguideDiv">
+                    <div class="notebookImg">
+                        <img class="normal_notebook" src="http://www.mhncity.com/static/imgs/main/noonAI_noteBook.png">
+                    </div>
+                    <div class="reverse_notebookImg">
+                        <img class="normal_notebook" src="http://www.mhncity.com/static/imgs/main/noonai_notebook_reverse.png">
+                    </div>
+                    <div class="textArea">
+                        <div class="umsLogoDiv">
+                            <img src="./static/imgs/common/1024_noonAI_logo@3x.png">
+                        </div>
+                        <h1>인공지능 영상 분석 플랫폼</h1>
+                        <p>
+                            눈아이는 인간의 눈을 대신해 CCTV 속 영상을 분석하고,<br>
+                            실시간 이벤트 알림과 데이터 시각화를 제공합니다.<br>
+                            지금바로 효율적인 운영을 시작하세요.
+                        </p>
+                        <p1>
+                            눈아이는 인간의 눈을 대신해 CCTV 속 영상을 분석하고, 
+                            실시간 이벤트 알림과 데이터 시각화를 제공합니다. 
+                            지금바로 효율적인 운영을 시작하세요.
+                        </p1>
+                        <!-- <div class="btnArea">
+                            <a href="./static/guideFile/noonAI_brochure.pdf" download>
+                                <div class="brochureBtn">
+                                    <span>브로셔 다운로드</span>
+                                </div>
+                            </a>
+                            <a href="./static/guideFile/noonAI_Guide.pdf" download>
+                                <div class="downloadBtn">
+                                    <span>UMS 가이드북 다운로드</span>
+                                </div>
+                            </a>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="noonaiPagenoonaiDiv">
+                    <div class="noonaiSliderDiv">
+                        <div class="noonaiSlider">
+                            <div class="noonaiData">
+                                <img class="noonaiImg" src="http://www.mhncity.com/static/imgs/common/noonAI_ico1@3x.png">
+                                <div class="noonaiText">
+                                    <div class="title">
+                                        <span>01</span><h1>실시간 영상 관제</h1>
+                                    </div>
+                                    <p>언제 어디서나 손쉽고<br>
+                                        빠르게 24시간 확인 가능 합니다.</p>
+                                </div>
+                            </div>
+                            <div class="noonaiData">
+                                <img class="noonaiImg" src="http://www.mhncity.com/static/imgs/common/noonAI_ico2@3x.png">
+                                <div class="noonaiText">
+                                    <div class="title">
+                                        <span>02</span><h1>AI 영상분석</h1>
+                                    </div>
+                                    <p>상황별 학습을 통해 영상 내<br>
+                                        특정 행위를 정확하게 탐지합니다.</p>
+                                </div>
+                            </div>
+                            <div class="noonaiData">
+                                <img class="noonaiImg" src="http://www.mhncity.com/static/imgs/common/noonAI_ico3@3x.png">
+                                <div class="noonaiText">
+                                    <div class="title">
+                                        <span>03</span><h1>이벤트 영상 저장</h1>
+                                    </div>
+                                    <p>이상 징후  감지 시 발생 당시 사진과<br>
+                                        함께 상황 발생 전후 1분 영상을<br>
+                                        자동 저장합니다. </p>
+                                </div>
+                            </div>
+                            <div class="noonaiData">
+                                <img class="noonaiImg" src="http://www.mhncity.com/static/imgs/common/noonAI_ico4@3x.png">
+                                <div class="noonaiText">
+                                    <div class="title">
+                                        <span>04</span><h1>이벤트 발생 알람</h1>
+                                    </div>
+                                    <p>침입/배회/유기 등.<br>
+                                        이상 징후 감지 시<br>
+                                        신속하게 알려드립니다.</p>
+                                </div>
+                            </div>
+                            <div class="noonaiData">
+                                <img class="noonaiImg" src="http://www.mhncity.com/static/imgs/common/noonAI_ico5@3x.png">
+                                <div class="noonaiText">
+                                    <div class="title">
+                                        <span>05</span><h1>데이터 시각화</h1>
+                                    </div>
+                                    <p>이벤트 현황을 히트맵과 통계로<br>
+                                        보기 쉽게 제공합니다.</p>
+                                </div>
+                            </div>
+                            <div class="noonaiData">
+                                <img class="noonaiImg" src="http://www.mhncity.com/static/imgs/common/noonAI_ico6@3x.png">
+                                <div class="noonaiText">
+                                    <div class="title">
+                                        <span>06</span><h1>플랫폼 시스템</h1>
+                                    </div>
+                                    <p>CCTV만 있다면<br>
+                                        별도의 장비 구입 및 구축 없이<br>
+                                        바로 도입 가능합니다.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="page detailDiv" id="page-4">
+                <div class="textArea">
+                    <span>당신의 안전한 환경을 위해</span>
+                    <h1>CCTV가 있는 곳이라면 어디든지!</h1>
+                </div>
+                <div class="detailBox1">
+                    <div class="detailImg"></div>
+                    <!-- <img src="./static/imgs/main/example1.jpg"> -->
+                    <div class="detailContent">
+                        <h1>
+                            인력의 한계 극복,<br>
+                            인건비 지출은 감소!
+                        </h1>
+                        <p>
+                            365일, 24시간 공백 없이 눈아이가 영상 데이터를 감시 및 분석해<br>
+                            실시간 이벤트 알람을 발송해 드립니다. 눈아이를 통해 효율적인<br>
+                            운영으로 인건비를 절감해 보세요. 
+                        </p>
+                        <p1>
+                            365일, 24시간 공백 없이 눈아이가 영상 데이터를 감시 및 분석해 
+                            실시간 이벤트 알람을 발송해 드립니다. 눈아이를 통해 효율적인 
+                            운영으로 인건비를 절감해 보세요. 
+                        </p1>
+                    </div>
+                </div>
+                <div class="detailBox2">
+                    <div class="detailContent">
+                        <h1>
+                            신속 정확한 탐지,<br>
+                            현장 대응 시간 단축!
+                        </h1>
+                        <p>
+                            CCTV 영상 속 객체인식 및 추적, 이상 징후를 정확하게 탐지하고<br>
+                            상황 발생 시 Snapshot과 상황 발생 전후 1분 영상을 제공합니다.<br>
+                            눈아이를 통해 빠른 상황 인지 및 판단으로 골든타임을 확보하고,<br>
+                            사건/사고 조기 대처해 보세요.
+                        </p>
+                        <p1>
+                            CCTV 영상 속 객체인식 및 추적, 이상 징후를 정확하게 탐지하고 
+                            상황 발생 시 Snapshot과 상황 발생 전후 1분 영상을 제공합니다. 
+                            눈아이를 통해 빠른 상황 인지 및 판단으로 골든타임을 확보하고, 
+                            사건/사고 조기 대처해 보세요.
+                        </p1>
+                    </div>
+                    <div class="detailImg"></div>
+                    <!-- <img src="./static/imgs/main/example2.png"> -->
+                </div>
+                <div class="detailBox3">
+                    <div class="detailImg"></div>
+                    <!-- <img src="./static/imgs/main/example3.png"> -->
+                    <div class="detailContent">
+                        <h1>
+                            영상 속 객체 분석,<br>
+                            통계 데이터로 확인!
+                        </h1>
+                        <p>
+                            출입 인원수, 방문자 동선, 체류 위치와 체류 시간 등  CCTV 영상 속 객체 정보를<br>
+                            데이터 분석 후 통계 자료를 그래프와 히트맵으로 제공합니다.<br>
+                            눈아이를 통해 방문자 및 이용자의 행동 패턴을<br>
+                            한눈에 쉽고, 빠르게 확인하세요.
+                        </p>
+                        <p1>
+                            출입 인원수, 방문자 동선, 체류 위치와 체류 시간 등  CCTV 영상 속 객체 정보를 
+                            데이터 분석 후 통계 자료를 그래프와 히트맵으로 제공합니다. 
+                            눈아이를 통해 방문자 및 이용자의 행동 패턴을 
+                            한눈에 쉽고, 빠르게 확인하세요.
+                        </p1>
+                    </div>
+                </div>
+                <div class="detailTop">
+                    <div class="box">
+                        <img class="imgBox" src="http://www.mhncity.com/static/imgs/common/store_ico@3x.png">
+                        <p>무인매장</p>
+                        <span style="margin-top: 15px;">무인매장<div class="blank"></div></span>
+                    </div>
+                    <div class="box">
+                        <img class="imgBox" src="http://www.mhncity.com/static/imgs/common/market_ico@3x.png">
+                        <p>대형마트/백화점</p>
+                        <span>대형마트/<br>백화점</span>
+                    </div>
+                    <div class="box">
+                        <img class="imgBox" src="http://www.mhncity.com/static/imgs/common/Housing_ico@3x.png">
+                        <p>주거단지</p>
+                        <span style="margin-top: 15px;">주거단지<div class="blank"></div></span>
+                    </div>
+                    <div class="box">
+                        <img class="imgBox" src="http://www.mhncity.com/static/imgs/common/Food_ico@3x.png">
+                        <p>음식점/카페</p>
+                        <span>음식점/<br>카페</span>
+                    </div>
+                    <div class="box">
+                        <img class="imgBox" src="http://www.mhncity.com/static/imgs/common/Education_ico@3x.png">
+                        <p>교육시설</p>
+                        <span style="margin-top: 15px;">교육시설<div class="blank"></div></span>
+                    </div>
+                    <div class="box">
+                        <img class="imgBox" src="http://www.mhncity.com/static/imgs/common/Hospital_ico@3x.png">
+                        <p>의료 및 복지시설</p>
+                        <span>의료 및<br>복지시설</span>
+                    </div>
+                </div>
+                <div class="detailBottom">
+                    <div class="box">
+                        <img class="imgBox" src="http://www.mhncity.com/static/imgs/common/sports_ico@3x.png">
+                        <p>운동시설</p>
+                        <span style="margin-top: 15px;">운동시설<div class="blank"></div></span>
+                    </div>
+                    <div class="box">
+                        <img class="imgBox" src="http://www.mhncity.com/static/imgs/common/Culture_ico@3x.png">
+                        <p>문화시설</p>
+                        <span style="margin-top: 15px;">문화시설<div class="blank"></div></span>
+                    </div>
+                    <div class="box">
+                        <img class="imgBox" src="http://www.mhncity.com/static/imgs/common/Leisure_ico@3x.png">
+                        <p>여가시설</p>
+                        <span style="margin-top: 15px;">여가시설<div class="blank"></div></span>
+                    </div>
+                    <div class="box">
+                        <img class="imgBox" src="http://www.mhncity.com/static/imgs/common/Hotel_ico@3x.png">
+                        <p>숙박시설</p>
+                        <span style="margin-top: 15px;">숙박시설<div class="blank" ></div></span>
+                    </div>
+                    <div class="box">
+                        <img class="imgBox" src="http://www.mhncity.com/static/imgs/common/traffic_ico@3x.png">
+                        <p>대중교통시설</p>
+                        <span>대중교통<br>시설</span>
+                    </div>
+                    <div class="box">
+                        <img class="imgBox" src="http://www.mhncity.com/static/imgs/common/etc_ico@3x.png">
+                        <p>기타 시설</p>
+                        <span style="margin-top: 15px;">기타 시설<div class="blank"></div></span>
+                    </div>
+                </div>
+
+                <div class="detail1">
+                    <div class="box">
+                        <img class="imgBox" src="http://www.mhncity.com/static/imgs/common/store_ico@3x.png">
+                        <p>무인매장</p>
+                        <span style="margin-top: 15px;">무인매장<div class="blank"></div></span>
+                    </div>
+                    <div class="box">
+                        <img class="imgBox" src="http://www.mhncity.com/static/imgs/common/market_ico@3x.png">
+                        <p>대형마트/백화점</p>
+                        <span>대형마트/<br>백화점</span>
+                    </div>
+                    <div class="box">
+                        <img class="imgBox" src="http://www.mhncity.com/static/imgs/common/Housing_ico@3x.png">
+                        <p>주거단지</p>
+                        <span style="margin-top: 15px;">주거단지<div class="blank"></div></span>
+                    </div>
+                </div>
+                <div class="detail2">
+                    <div class="box">
+                        <img class="imgBox" src="http://www.mhncity.com/static/imgs/common/Food_ico@3x.png">
+                        <p>음식점/카페</p>
+                        <span>음식점/<br>카페</span>
+                    </div>
+                    <div class="box">
+                        <img class="imgBox" src="http://www.mhncity.com/static/imgs/common/Education_ico@3x.png">
+                        <p>교육시설</p>
+                        <span style="margin-top: 15px;">교육시설<div class="blank"></div></span>
+                    </div>
+                    <div class="box">
+                        <img class="imgBox" src="http://www.mhncity.com/static/imgs/common/Hospital_ico@3x.png">
+                        <p>의료 및 복지시설</p>
+                        <span>의료 및<br>복지시설</span>
+                    </div>
+                </div>
+                <div class="detail3">
+                    <div class="box">
+                        <img class="imgBox" src="http://www.mhncity.com/static/imgs/common/sports_ico@3x.png">
+                        <p>운동시설</p>
+                        <span style="margin-top: 15px;">운동시설<div class="blank"></div></span>
+                    </div>
+                    <div class="box">
+                        <img class="imgBox" src="http://www.mhncity.com/static/imgs/common/Culture_ico@3x.png">
+                        <p>문화시설</p>
+                        <span style="margin-top: 15px;">문화시설<div class="blank"></div></span>
+                    </div>
+                    <div class="box">
+                        <img class="imgBox" src="http://www.mhncity.com/static/imgs/common/Leisure_ico@3x.png">
+                        <p>여가시설</p>
+                        <span style="margin-top: 15px;">여가시설<div class="blank"></div></span>
+                    </div>
+                </div>
+                <div class="detail4">
+                    <div class="box">
+                        <img class="imgBox" src="http://www.mhncity.com/static/imgs/common/Hotel_ico@3x.png">
+                        <p>숙박시설</p>
+                        <span style="margin-top: 15px;">숙박시설<div class="blank" ></div></span>
+                    </div>
+                    <div class="box">
+                        <img class="imgBox" src="http://www.mhncity.com/static/imgs/common/traffic_ico@3x.png">
+                        <p>대중교통시설</p>
+                        <span>대중교통<br>시설</span>
+                    </div>
+                    <div class="box">
+                        <img class="imgBox" src="http://www.mhncity.com/static/imgs/common/etc_ico@3x.png">
+                        <p>기타 시설</p>
+                        <span style="margin-top: 15px;">기타 시설<div class="blank"></div></span>
+                    </div>
+                </div>
+            </div>
+            <div class="page needsDiv" id="page-5">
+                <div class="textArea">
+                    <h1>
+                        다양한 사업 분야에서 
+                        고객의 니즈에 맞추어
+                    </h1>
+                    <h2>
+                        다양한 사업 분야에서<br>
+                        고객의 니즈에 맞추어
+                    </h2>
+                    <p>
+                        눈아이의 컴퓨터 공학 전문가 및 영상인식 전문 연구원이 영상 보안, 제조, 
+                        의료, 도시설계 등 다양한 산업 분야에서 효율성 및 생산성 향상을 위한 
+                        연구 개발을 하고 있습니다. 고객의 요구에 맞추어 데이터 구축 및 수집부터 
+                        모델 생성에 이르기까지 고객 맞춤형 솔루션을 구축하기에 고객의 환경에 
+                        가장 적합한 솔루션을 경험하게 될 것입니다.
+                    </p>
+                </div>
+                <div class="needsContent">
+                    <div class="topDiv">
+                        <div class="imgBox">
+                            <img src="http://www.mhncity.com/static/imgs/common/needs1.png">
+                            <div class="explanation">
+                                <h1>동국대 MOU 체결</h1>
+                                <p>
+                                    2021년 4월, 동국대와 지역사회 및 
+                                    산업 난제 해결을 위한 협약 체결 / 
+                                    2021년 12월, 동국대학교 기술이
+                                    전 계약 체결
+                                </p>
+                            </div>
+                        </div>
+                        <div class="imgBox">
+                            <img src="http://www.mhncity.com/static/imgs/common/needs2.png">
+                            <div class="explanation">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contactDiv">
+                    <h1>엠에이치엔씨티와 함께 가치를 만들어 보세요!</h1>
+                    <div class="contactDiv_btn"><a href="/contact"><p>문의하기</p></a></div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="footer_logo"><img class="footer_logo_img" src="http://www.mhncity.com/static/imgs/common/mhncity_new_white_logo.png"></div>
+                <div class="blankArea"></div>
+                <div class="copyright"><p>copyright © all rights reserved mhncity</p></div>
+                <div class="linkList">
+                    <div class="snsLink">
+                        <a href="https://m.post.naver.com/my.naver?memberNo=57189921" target="_blank"><img class="blog_snsImg" src="http://www.mhncity.com/static/imgs/common/white_post.png"></a>
+                        <a href="https://instagram.com/noonai__lab?igshid=YmMyMTA2M2Y=" target="_blank"><img class="insta_snsImg" src="http://www.mhncity.com/static/imgs/common/insta_ico@3x.png"></a>
+                        <a href="https://pf.kakao.com/_HxkIKs" target="_blank"><img class="kakao_snsImg" src="http://www.mhncity.com/static/imgs/common/kkoc_ico@3x.png"></a>
+                    </div>
+                    <div class="localLink">
+                        <a href="contact">문의하기</a><p>&nbsp;&nbsp;|&nbsp;&nbsp;</p><a href="https://psychedelic-cruiser-61a.notion.site/MHNcity-Culture-Deck-3b38c5aa1d234f8f9e1ac91160eecfb1" target="_blank">채용안내</a><p>&nbsp;&nbsp;|&nbsp;&nbsp;</p><a href="admin">관리자</a>
+                    </div>
+                </div>
+                <div class="topBtn">
+                    <img src="http://www.mhncity.com/static/imgs/common/select_arrow_up@3x.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+    <script type="text/javascript">
+        if(!wcs_add) var wcs_add = {};
+        wcs_add["wa"] = "923a3a96706d88";
+        if(window.wcs) {
+        wcs_do();
+        }
+    </script>
+</body>
+
+<script>
+
+    $(document).ready(function() {
+        var titlemargin = $('#certi').css('margin-left')
+        var margin = titlemargin.split('px')
+        var marginleft = Number(margin[0]) - 82;
+        document.getElementById('kisa').style.marginLeft = ""+marginleft+"px";
+    });
+
+    $('.noonaiSlider').slick({
+        dots: false,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        slide: 'div',		//슬라이드 되어야 할 태그 ex) div, li 
+        // speed : 100,	 // 다음 버튼 누르고 다음 화면 뜨는데까지 걸리는 시간(ms)
+        arrows : true, 		// 옆으로 이동하는 화살표 표시 여부
+        prevArrow: '<div class="prev_arrow"><img class="arrow_img" src="./static/imgs/common/select_arrow_left@3x.png"></div>',
+        nextArrow: '<div class="next_arrow"><img class="arrow_img" src="./static/imgs/common/select_arrow_right@3x.png"></div>',
+        vertical : false,		// 세로 방향 슬라이드 옵션
+        draggable : false,
+        responsive: [
+            {
+                breakpoint: 1600,
+                settings: {
+                    slidesToShow: 3,
+                    arrows : true, 
+                }
+            },
+            {
+                breakpoint: 1301,
+                settings: {
+                    slidesToShow: 2,
+                    arrows : true, 
+                }
+            },
+            {
+                breakpoint: 1000,
+                settings: {
+                    infinite:true,
+                    slidesToShow: 1,
+                    variableWidth: true,
+                    arrows : false, 
+                    draggable:true,
+                }
+            },
+        ]
+    });
+</script>
+
+</html>
